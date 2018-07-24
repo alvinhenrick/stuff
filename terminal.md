@@ -2,28 +2,30 @@
 
 2. Install oh-my-zsh :
 
-`sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+ `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
  
 3. Install fonts :
 
-`git clone https://github.com/powerline/fonts.git
-cd fonts
-./install.sh`
+ `git clone https://github.com/powerline/fonts.git
+ cd fonts
+ ./install.sh`
 
 4. Change font on iTerm2 :
 
-`ITerm2 > Preferences > Profiles > Text > Change Font  ==> Set to “12 Pt Meslo LG DZ for Powerline” font.`
+ `ITerm2 > Preferences > Profiles > Text > Change Font  ==> Set to “12 Pt Meslo LG DZ for Powerline” font.`
 
 5. Then edit `~/.zshrc` configuration file and set
 
-`ZSH_THEME="agnoster"` OR `ZSH_THEME="powerlevel9k/powerlevel9k"`
+ `ZSH_THEME="agnoster"` OR `ZSH_THEME="powerlevel9k/powerlevel9k"`
 
 6. Add Plugins :
 
-`git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-completions $ZSH_CUSTOM/plugins/zsh-completions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting $ZSH_CUSTOM/plugins/zsh-syntax-highlighting`
+ `git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+ git clone https://github.com/zsh-users/zsh-completions $ZSH_CUSTOM/plugins/zsh-completions
+ git clone https://github.com/zsh-users/zsh-syntax-highlighting $ZSH_CUSTOM/plugins/zsh-syntax-highlighting`
 
 7. Add the plugin to the list of plugins in `~/.zshrc` configuration file :
 
-`plugins=(git zsh-autosuggestions zsh-completions zsh-syntax-highlighting)`
+ `plugins=(git zsh-autosuggestions zsh-completions zsh-syntax-highlighting)`
+ 
+8. `source ~/.zshrc`
