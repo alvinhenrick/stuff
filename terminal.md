@@ -16,7 +16,7 @@
 
 5. Install Powerline Theme
 
- `git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
+ `git clone https://github.com/bhilburn/powerlevel9k.git $ZSH_CUSTOM/themes/powerlevel9k`
 
 6. Then edit `~/.zshrc` configuration file and set
 
