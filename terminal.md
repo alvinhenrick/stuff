@@ -14,11 +14,15 @@
 
  `ITerm2 > Preferences > Profiles > Text > Change Font  ==> Set to “12 Pt Meslo LG DZ for Powerline” font.`
 
-5. Then edit `~/.zshrc` configuration file and set
+5. Install Powerline Theme
+
+ `git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
+
+6. Then edit `~/.zshrc` configuration file and set
 
  `ZSH_THEME="agnoster"` OR `ZSH_THEME="powerlevel9k/powerlevel9k"`
 
-6. Add Plugins :
+7. Add Plugins :
 
  `git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions`
  
@@ -26,8 +30,8 @@
  
  `git clone https://github.com/zsh-users/zsh-syntax-highlighting $ZSH_CUSTOM/plugins/zsh-syntax-highlighting`
 
-7. Add the plugin to the list of plugins in `~/.zshrc` configuration file :
+8. Add the plugin to the list of plugins in `~/.zshrc` configuration file :
 
  `plugins=(git zsh-autosuggestions zsh-completions zsh-syntax-highlighting)`
  
-8. `source ~/.zshrc`
+9. `source ~/.zshrc`
