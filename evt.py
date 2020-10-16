@@ -7,7 +7,6 @@ def EVT(nin, hidden_sizes, nout):
     output_layer = [layers.Dense(nout, activation='linear')]
     model = keras.Sequential(input_layer + hidden_layers + output_layer)
     return model
-# default values takes from `https://github.com/VadimSokolov/Energy-EVT/blob/master/load_evt.py`
 default_params = {
     'seed': 39,
     'hidden': [3],
